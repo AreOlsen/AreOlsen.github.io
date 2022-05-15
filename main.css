@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+:root{
+    --black:#1f2223;
+    --blacker:#131516;
+    --white:#c8c7c5;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'PT Serif', serif;
+}
+#profile-pic{
+    border-radius: 50%;
+    border: solid 1px var(--white);
+    margin-top: -140px;
+}
+#main{
+    min-width: 400px;
+    max-width: 550px;
+    height: 450px;
+    background-color: var(--blacker);
+    border-radius: 8px;
+    border: solid 1px var(--white);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+span + span {
+    margin-left: 15px;
+}
+#quote{
+    font-style: italic;
+}
+#name{
+    font-size: 30px;
+}
+p{
+    max-width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+hr {
+    width: 80%;
+    background-color: #808080;
+    border-color: #808080;
+}
+
+.social-media-icon {
+    width:32px;
+    height:32px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#quote-div{
+    height:76px;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+li+li{
+    margin-left: 100px;
+}
