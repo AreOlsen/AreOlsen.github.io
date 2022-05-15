@@ -15,7 +15,7 @@
     margin-top: -140px;
 }
 #main{
-    min-width: 400px;
+    min-width: 480px;
     max-width: 550px;
     height: 450px;
     background-color: var(--blacker);
