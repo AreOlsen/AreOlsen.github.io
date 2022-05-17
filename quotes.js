@@ -10,7 +10,7 @@ let quotes = [
 "``Is evil something you are? Or is it something you do?´´",
 "``Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.´´",
 "``Physics is like sex: sure, it may give some practical results, but that's not why we do it.´´",
-"`I learned very early the difference between knowing the name of something and knowing something.´´"
+"``I learned very early the difference between knowing the name of something and knowing something.´´"
 ]
 
 function getRandomIntInclusive(min, max) {
