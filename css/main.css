@@ -34,6 +34,22 @@
 
 /* Biography*/
 
+#whoareyou {
+	background-image: linear-gradient(to right, var(--limegreen), var(--blue));
+	background-clip: text;
+	background-size: 100%;
+	background-color: aliceblue;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+#whoareyou::after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid var(--dark-gray);
+}
+
 #biography {
 	height: 500px;
 	width: 100vw;

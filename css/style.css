@@ -7,6 +7,7 @@
 	--blue: #00bfff;
 	--darkblue: #0091c1;
 	--bluedarkblue: #00a0d1;
+	--limegreen: #77dd99;
 }
 
 /* * We want the same font on all the texts unless specified otherwise. */
@@ -100,4 +101,9 @@ ol {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+strong {
+	border-bottom: 2px solid var(--limegreen);
+	border-radius: 2px;
 }
