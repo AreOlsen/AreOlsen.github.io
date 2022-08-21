@@ -9,6 +9,10 @@
 	--bluedarkblue: #00a0d1;
 }
 
+html {
+	width: 100vw;
+}
+
 /* * We want the same font on all the texts unless specified otherwise. */
 * {
 	font-family: "Open Sans", sans-serif;
