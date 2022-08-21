@@ -1,41 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Brown</title>
-    <link rel="shortcut icon" href="cocktail.png" type="image/png"/>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div id="main">
-            <img src="https://avatars.githubusercontent.com/u/58704301" width="225px" height="225px" id="profile-pic" />
-        <div id="minibio">
-            <span id="name"></span> <script src="typewriter.js"></script> <br>
-            <span>Norwegian.</span>
-            <span>High-school student.</span>
-            <span>17 -  male.</span>
-        </div>
-        <hr>
-        <div id="bio">
-            <p>17 year old Norwegian student interested in Physics, Biology, Mathematics, Game-development, Web-development, Cryptography, and Penetration-testing. </p>
-        </div>
-        <hr>
-        <div id="quote-div">
-            <p id="quote"></p> <script src="quotes.js"></script>
-        </div><hr>
-        <div id="social-media">
-            <ul>
-                <li>
-                    <a href="https://github.com/SimonGoBrrr"><img type="image/png" class="social-media-icon" src="./socialmediasvgs/github.png"/>Github</a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/vabCNfx3qh"><img type="image/svg" class="social-media-icon" src="./socialmediasvgs/discord.svg">Discord</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script src="console.js"></script>      
-</body>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simon Brown.</title>
+		<meta name="description" content="Simon Brown's personal website." />
+		<link rel="shortcut icon" href="favicon_io/favicon.ico" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<div class="top-page">
+				<div id="banner" class="centerParent">
+					<div class="centerChild">
+						<img
+							class="blueborder25"
+							src="https://avatars.githubusercontent.com/u/58704301"
+							height="200px"
+							width="200px"
+						/>
+						<h1>🐼 Simon Brown 🐼</h1>
+						<h2>A developer from Norway.</h2>
+						<a
+							href="https://github.com/SimonGoBrrr?tab=repositories"
+							target="_blank"
+						>
+							<span>Portfolio.</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="biography" class="centerParent">
+				<div class="centerChild less-width-mid">
+					<ul class="centerUlH">
+						<img
+							src="images/programming.gif"
+							class="blueborder25"
+							width="120px"
+							height="120px"
+						/>
+						<h1 style="margin-left: 20px">Who the f*** are you?</h1>
+					</ul>
+					<p class="font-line-height-2">
+						Hello my name is Simon Brown. Or well that's what I go
+						by on the internet. I am what you would call a
+						developer. Mostly I tend to develop websites. However I
+						also dabble into games, and other fun projects.
+						Unfortunately, most my projects are actually privated,
+						and most of the public ones are far from finished. The
+						reason being of course the lack of time. Oh so annoying
+						time can be, am I right? At the moment I am studying at
+						secondary school in Norway, second year to be precise.
+						But do not let that fool you, I have been into
+						programming and developing software for quite some time.
+						At the moment I am fluent in a couple languages, mainly
+						C#, Python, Html5, Css & JS. And some basic knowledge
+						inside of C++. I am looking forward to learning more
+						languages such as C, Rust, and Go. I have some knowledge
+						inside the tools of NodeJS/Express, and in terms of
+						game-development: Unity. I am a bit of a gamer, and I
+						enjoy my free time by being with my friends.
+					</p>
+				</div>
+			</div>
+			<div id="portfolioParent" class="centerParent">
+				<div class="centerChild" id="portfolioChild">
+					<ul id="tiles" class="centerUlH"></ul>
+					<script src="scripts/main-portofolio.js"></script>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<hr class="gray-hr" />
+			<div id="contact-information" class="centerParent">
+				<ul class="centerChild centerUlH">
+					<li>
+						<a
+							href="https://github.com/SimonGoBrrr"
+							target="_blank"
+							id="github"
+						>
+							<img
+								src="images/github.png"
+								height="50px"
+								width="50px"
+							/>
+							<span>Github Profile</span>
+						</a>
+					</li>
+					<li>
+						<img
+							src="images/discord.png"
+							height="50%"
+							width="50px"
+						/>
+						<span id="discord">Discord: That guy#6103</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
 </html>
