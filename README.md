@@ -1,2 +1,2 @@
-# SimonGoBrrr.github.io
+# AreOlsen.github.io
 My personal website!
