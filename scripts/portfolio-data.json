@@ -1,6 +1,0 @@
-{
-    "names":["Zolargium", "BadApple", "AI Chess"],
-    "descriptions":["Zolargium is a realistic physics based game where one explores the universe.", "BadApple is a discord bot-system where the video Bad Apple gets sent by bots to a text channel, showing a video by text.", "AI chess is a game where you play as white and fight an AI in chess."],
-    "covers":["zolargium.gif", "badapple.gif", "aichess.gif"],
-    "links":["https://github.com/SimonGoBrrr/ZolarGium", "https://github.com/SimonGoBrrr/BadAppleV3", "https://github.com/SimonGoBrrr/AI-Chess"]
-}

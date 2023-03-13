@@ -1,109 +1,20 @@
-/* * Just for variables. */
-:root {
-	--light-gray: #dbdce5;
-	--gray: #a3a3a3;
-	--dark-gray: #6e6e6e;
-	--lightblue: #94ddff;
-	--blue: #00bfff;
-	--darkblue: #0091c1;
-	--bluedarkblue: #00a0d1;
-	--limegreen: #77dd99;
-}
-
-/* * We want the same font on all the texts unless specified otherwise. */
-* {
-	font-family: "Open Sans", sans-serif;
-	max-width: 100%; /* * Well I never ever want to have to scroll horz  so....*/
-}
-
-/* * Nasty shit, do not want anything to be margined. No fam I hard pass on that brother.*/
-body {
-	margin: 0;
-}
-
-/* * All buttons look the same on the website.*/
-a {
-	color: #000;
-	text-decoration: none;
-	padding: 5px;
-	background-color: var(--light-gray);
-	border-radius: 10px;
-	border-color: black;
-	border-style: solid;
-	border-width: 2px;
-}
-a:hover {
-	background-color: var(--gray);
-}
-
-/* * For when we want to center divs inside of other divs. */
-.centerChild {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.centerParent {
-	position: relative;
-}
-
-/* For when we want to center an ul horizontally*/
-.centerUlH {
+main {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+		"Open Sans", "Helvetica Neue", sans-serif;
+	text-align: center;
+	font-size: xx-large;
 }
 
-.centerUlH li {
-	margin: 0 50px !important;
-}
-.centerUlH li span {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.centerUlH li img {
-	vertical-align: middle;
-}
-
-/* Thicky <hr>*/
-.gray-hr {
-	height: 2px;
-	border: 0;
-	background-image: linear-gradient(
-		to right,
-		var(--gray),
-		var(--dark-gray),
-		var(--gray)
-	);
-	width: 100%;
-}
-
-/* Less width mid area*/
-.less-width-mid {
-	width: 50%;
-}
-
-/* Blue border 25% image*/
-.blueborder25 {
-	border: 2px solid var(--lightblue);
-	border-radius: 25%;
-}
-
-.font-line-height-2 {
-	line-height: 1.5;
-}
-
-ul,
-ol {
-	list-style: none;
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
 	margin: 0;
-	padding: 0;
-}
-
-strong {
-	border-bottom: 2px solid var(--limegreen);
-	border-radius: 2px;
 }
